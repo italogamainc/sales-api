@@ -4,6 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "type": "module",
+  "engines": {
+    "node": "16.x"
+  },
   "scripts": {
     "startDev": "nodemon app.js",
     "startContainer": "set NODE_ENV=container&& nodemon app.js",
